@@ -5,8 +5,8 @@ vim.opt.signcolumn = "yes"
 
 -- Indentation: 4 spaces by default
 vim.opt.expandtab = true
-vim.opt.shiftwidth = 4
-vim.opt.tabstop = 4
+vim.opt.shiftwidth = 2
+vim.opt.tabstop = 2
 vim.opt.smartindent = true
 
 -- Searching
@@ -26,4 +26,7 @@ vim.opt.termguicolors = true
 
 -- Keep undo history between sessions
 vim.opt.undofile = true
+
+-- Clipboard
+vim.opt.clipboard = "unnamedplus"
 
