@@ -1,0 +1,15 @@
+# Variables used by the files in config.d/
+set $mod Mod4
+set $left h
+set $down j
+set $up k
+set $right l
+set $term foot
+set $menu wmenu-run
+
+# Load personal settings in filename order
+include config.d/*.conf
+
+# Keep this if your distribution provides extra Sway configuration here
+include /etc/sway/config.d/*
+
